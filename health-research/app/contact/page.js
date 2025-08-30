@@ -39,7 +39,7 @@ export default function ContactPage() {
       if (response.ok) {
         setSubmitStatus({
           type: 'success',
-          message: 'Thank you! Your message has been sent successfully. We\'ll get back to you within 2 business days.'
+          message: 'Thank you! Your message has been sent successfully. We&apos;ll get back to you within 2 business days.'
         });
         // Reset form
         setFormData({
@@ -68,7 +68,7 @@ export default function ContactPage() {
     <section className="container-section py-16">
       <h1 className="text-3xl font-bold tracking-tight">Contact Us</h1>
       <p className="mt-2 text-sm text-zinc-600 max-w-2xl">
-        Tell us about your project. We'll get back within 2 business days.
+        Tell us about your project. We&apos;ll get back within 2 business days.
       </p>
 
       {submitStatus && (
